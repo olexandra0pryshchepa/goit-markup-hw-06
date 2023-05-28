@@ -804,6 +804,7 @@ margin-bottom: 16px;
     font-size: 12px;
     letter-spacing: 0.04em;
     color: #8E8F99;
+     line-height: 1.17;
 }
 
 .modal-contact-form{
@@ -878,7 +879,7 @@ margin-bottom: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-icon:focus{
+.contact-form-input:focus + .contact-form-icon{
   fill: #4D5AE5; 
 }
 
@@ -905,7 +906,7 @@ margin-bottom: 16px;
 }
 
 
-.modal-checkbox-input:checked + .modal-checkbox-icon-wrapper{
+.modal-checkbox-input:checked + .modal-checkbox-icon-wrapper > .checkbox-icon{
   background-color:  #404bbf;
    border: none; 
    fill: #ffffff;
