@@ -906,10 +906,10 @@ margin-bottom: 16px;
 }
 
 
-.modal-checkbox-input:checked + .modal-checkbox-icon-wrapper > .checkbox-icon{
-  background-color:  #404bbf;
-   border: none; 
+.modal-checkbox-input:checked + .modal-checkbox-description > .modal-checkbox-icon-wrapper{
+ border: none; 
    fill: #ffffff;
+  background-color:  #404bbf;
    border-color: #404bbf;
 }
 
